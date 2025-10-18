@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gahbiche Ahmed's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="profile">
+            <img src="finalprofile2.png" alt="Photo de profil">
+            <h1>Gahbiche Ahmed</h1>
+            <div class="social-links">
+                <a href="https://github.com/LeBrnZ" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.reddit.com/user/DisasterFabulous5953/" target="_blank"><i class="fab fa-reddit"></i></a>
+                <a href="https://www.facebook.com/Ahmed.Gahbichee" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ahmed_gahbiche" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed-gahbiche-115b61313" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="active"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> À propos</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio Compétences</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Parcours Académique</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> CV</a></li>  
+                <li><a href="#projet"><i class="fas fa-laptop-code"></i> Mes projets</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#team"><i class="fas fa-users"></i> My Team</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div>
+                <h2>Bonjour, C'est <span class="typed">Gahbiche Ahmed</span></h2>
+                <h3>Élève ingénieur en première année d'informatique appliquée à l'ENISo</h3>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">À Propos</h2>
+            <div class="about-content">
+                <img src="Aprops.png" alt="À propos">
+                <div class="about-info">
+                    <h3>Élève ingénieur en première année d'informatique appliquée à l'ENISo</h3>
+                    <p>Je suis un étudiant en informatique appliquée passionné par le développement web et le monde du code. J'aime créer des sites web modernes, intuitifs et performants, tout en explorant de nouvelles technologies pour améliorer mes compétences. Le développement est pour moi bien plus qu'une discipline : c'est un moyen d'exprimer ma créativité et de résoudre des problèmes de manière intelligente et efficace.</p>
+                    <ul class="info-list">
+                        <li><strong>Anniversaire:</strong> 18 Octobre 2003</li>
+                        <li><strong>Site Web:</strong> www.AhmedGahbiche_Portfolio.com</li>
+                        <li><strong>Téléphone:</strong> +216 58 402 509</li>
+                        <li><strong>Ville:</strong> Sousse, Tunisie</li>
+                        <li><strong>Âge:</strong> 22</li>
+                        <li><strong>Diplôme:</strong> Diplôme du concours national d'entrée aux écoles d'ingénieurs</li>
+                        <li><strong>Email:</strong> ahmedgahbiche2003@gmail.com</li>
+                        <li><strong>Freelance:</strong> Disponible</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h4>HTML <span>90%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>CSS <span>70%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>JavaScript <span>60%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>Langage C <span>100%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>Python <span>70%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h4>SQL <span>80%</span></h4>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2 class="section-title">Portfolio Compétences</h2>
+            <div style="overflow-x: auto; margin-top: 30px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Compétence</th>
+                            <th>Niveau</th>
+                            <th>Domaine d'application</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Python</strong></td>
+                            <td>Avancé</td>
+                            <td>Analyse de données, automatisation des tests, scripts embarqués</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td><strong>Langage C</strong></td>
+                            <td>Avancé</td>
+                            <td>Programmation embarquée, microcontrôleurs (STM32, ARM)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>C++</strong></td>
+                            <td>Intermédiaire</td>
+                            <td>Systèmes embarqués, traitement de données capteurs</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td><strong>MATLAB/Simulink</strong></td>
+                            <td>Intermédiaire</td>
+                            <td>Modélisation de systèmes, simulation de contrôle embarqué</td>
+                        </tr>
+                        <tr>
+                            <td><strong>HTML / CSS</strong></td>
+                            <td>Avancé</td>
+                            <td>Interfaces utilisateur, dashboards</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td><strong>SQL</strong></td>
+                            <td>Avancé</td>
+                            <td>Base de données, systèmes de gestion embarqués</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Git / GitHub</strong></td>
+                            <td>Confirmé</td>
+                            <td>Gestion de version, collaboration sur projets logiciels</td>
+                        </tr>
+                        <tr style="background-color: #f5f8fd;">
+                            <td><strong>CAN / LIN</strong></td>
+                            <td>Débutant</td>
+                            <td>Communication entre calculateurs embarqués</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">🎓 Parcours Académique</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <h3>École École primaire Recasement Nord Sousse, Tunisie</h3>
+                    <span>2008 - 2015<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Collège kostantine de Sousse, Tunisie</h3>
+                    <span>2015 - 2018<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Lycée Hamem Sousse 2, Tunisie</h3>
+                    <p>Admise au baccalauréat en science technique avec la mention  Bien.</p>
+                    <span>2018 - 2022<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>Institut Préparatoire aux Études d'Ingénieurs de Monastir, Tunisie</h3>
+                    <p>Admise au concours national d'entrée aux écoles d'ingénieurs</p>
+                    <span>2022 - 2025<br><br></span>
+                </div>
+                <div class="education-item">
+                    <h3>École Nationale d'Ingénieurs de Sousse </h3>
+                    <p>Spécialisation : Informatique Appliquée</p>
+                    <span>2025 - 2028</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2 class="section-title">CV</h2>
+            
+            <div class="resume-content">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">Formation</h3>
+                    
+                    <div class="resume-item">
+                        <h4>École Nationale d'Ingénieurs de Sousse</h4>
+                        <h5>2025 - 2028</h5>
+                        <p><em>Informatique Appliquée</em></p>
+                        <p>Formation d'ingénieur avec spécialisation en développement logiciel, systèmes embarqués et technologies web.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Institut Préparatoire aux Études d'Ingénieurs de Monastir</h4>
+                        <h5>2022 - 2025</h5>
+                        <p><em>Classes Préparatoires</em></p>
+                        <p>Formation scientifique intensive en mathématiques, physique et informatique.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Baccalauréat Sciences technique</h4>
+                        <h5>2022</h5>
+                        <p><em>Section Sciences</em></p>
+                        <p>Obtention du baccalauréat avec mention bien.</p>
+                    </div>
+                </div>
+                
+                <div class="resume-column">
+                    <h3 class="resume-column-title">Expérience</h3>
+                    
+                    <div class="resume-item">
+                        <h4>Développeur Web - Projet Personnel</h4>
+                        <h5>2024 - Présent</h5>
+                        <p><em>Freelance</em></p>
+                        <p>Création de sites web modernes et responsives pour divers clients. Utilisation de HTML, CSS, JavaScript et frameworks modernes.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Projets Académiques</h4>
+                        <h5>2023 - 2025</h5>
+                        <p><em>ENISo / IPEIM</em></p>
+                        <p>Réalisation de nombreux projets en Python et analyse de données.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Apprentissage Continu</h4>
+                        <h5>2022 - Présent</h5>
+                        <p><em>Auto-formation</em></p>
+                        <p>Formation continue via des plateformes en ligne, tutoriels et documentation technique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PROJETS MISE À JOUR -->
+        <section id="projet" class="section">
+            <h2 class="section-title">Mes projets</h2>
+            <div class="education-container">
+
+                
+                <!-- Calculatrice Scientifique -->
+                <div class="education-item">
+                    <h3><i class="fas fa-calculator" style="color: var(--primary); margin-right: 10px;"></i>Calculatrice Scientifique Web</h3>
+                    <p>Application web interactive avec interface moderne pour effectuer des calculs mathématiques avancés et conversions d'unités</p>
+                    <span>2024<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop" alt="Calculatrice Scientifique" width="350">
+                </div>
+                
+                <!-- Gestionnaire de Tâches -->
+                <div class="education-item">
+                    <h3><i class="fas fa-tasks" style="color: var(--primary); margin-right: 10px;"></i>Gestionnaire de Tâches Moderne</h3>
+                    <p>Application To-Do List avec fonctionnalités drag & drop, filtres avancés et synchronisation des données</p>
+                    <span>2025<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop" alt="Gestionnaire de Tâches" width="350">
+                </div>
+                
+                <!-- Système CRUD -->
+                <div class="education-item">
+                    <h3><i class="fas fa-database" style="color: var(--primary); margin-right: 10px;"></i>Système de Gestion CRUD</h3>
+                    <p>Application complète de gestion avec opérations Create, Read, Update, Delete sur une base de données SQL</p>
+                    <span>2024<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=400&fit=crop" alt="Système CRUD" width="350">
+                </div>
+                
+                <!-- Dashboard Analytics -->
+                <div class="education-item">
+                    <h3><i class="fas fa-chart-line" style="color: var(--primary); margin-right: 10px;"></i>Dashboard de Visualisation de Données</h3>
+                    <p>Dashboard interactif avec graphiques dynamiques pour visualiser et analyser des statistiques en temps réel</p>
+                    <span>2025<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Dashboard Analytics" width="350">
+                </div>
+                
+                <!-- API REST -->
+                <div class="education-item">
+                    <h3><i class="fas fa-server" style="color: var(--primary); margin-right: 10px;"></i>API REST avec Authentification</h3>
+                    <p>Développement d'une API RESTful sécurisée avec authentification JWT et documentation Swagger complète</p>
+                    <span>2024<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop" alt="API REST" width="350">
+                </div>
+                
+                <!-- Montage Vidéo -->
+                <div class="education-item">
+                    <h3><i class="fas fa-video" style="color: var(--primary); margin-right: 10px;"></i>Montage Vidéo pour le FabLab</h3>
+                    <p>Réalisation et montage de vidéos promotionnelles avec Final Cut Pro pour présenter les projets du FabLab</p>
+                    <span>2025<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&h=400&fit=crop" alt="Montage Vidéo" width="350">
+                </div>
+                
+                <!-- Générateur QR Code -->
+                <div class="education-item">
+                    <h3><i class="fas fa-qrcode" style="color: var(--primary); margin-right: 10px;"></i>Générateur de QR Code</h3>
+                    <p>Application web pour créer et personnaliser des QR codes avec logo intégré et options de style avancées</p>
+                    <span>2024<br><br></span>
+                    <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=600&h=400&fit=crop" alt="QR Code Generator" width="350">
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Développement Web</h4>
+                    <p>Création de sites web modernes, responsifs et performants adaptés à vos besoins</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Applications Mobiles</h4>
+                    <p>Développement d'applications iOS et Android avec React Native</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-paint-brush"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>Conception d'interfaces utilisateur intuitives et attrayantes</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4>E-commerce</h4>
+                    <p>Création de boutiques en ligne performantes et sécurisées</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-film"></i>
+                    <h4>Montage Vidéo</h4>
+                    <p>Montage des vidéos en utilisant Final Cut Pro</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-headset"></i>
+                    <h4>Support & Maintenance</h4>
+                    <p>Support technique et maintenance de vos projets web</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="section">
+            <h2 class="section-title">My Team</h2>
+            <div class="team-hero">
+                <img src="BU4.jpg" alt="My Team" class="team-photo">
+            </div>
+            <div class="team-members-grid">
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Rahma khessibi</h3>
+                    <p class="member-role">IA 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Mariem Bohli</h3>
+                    <p class="member-role">ASE 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Abderrahmen Hamila</h3>
+                    <p class="member-role">GMP 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Anas Jmili</h3>
+                    <p class="member-role">GTE 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Yosr Ltaief</h3>
+                    <p class="member-role">MECA 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+                <div class="team-member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="member-name">Wiem Boughattas</h3>
+                    <p class="member-role">IA 1</p>
+                    <a href="#" class="portfolio-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <span>View Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Sousse, Tunisie</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ahmedgahbiche2003@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+216 58 402 509</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gahbiche Ahmed. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
